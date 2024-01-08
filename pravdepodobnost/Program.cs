@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("ahoj svete");
+            Console.WriteLine("ahoj svete");
         }
     }
 }
