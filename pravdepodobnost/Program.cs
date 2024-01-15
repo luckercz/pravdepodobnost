@@ -7,10 +7,11 @@
             Random rnd = new Random();
 
             Console.WriteLine("Napis pocet serii:");
-            int series = 10000;
+            int series = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Napis kolikrat za sebou ma padnout:");
+            int row = Convert.ToInt32(Console.ReadLine());
             int correct = 0;
-
+            Console.Clear();
             for (int serieNumber = 0; serieNumber < series; serieNumber++)
             {
                 int inRow = 0;
@@ -25,7 +26,7 @@
                         lastFlip = flip;
                     }
 
-                    if (inRow == 7)
+                    if (inRow == row)
                     {
                         correct++;
                         break;
