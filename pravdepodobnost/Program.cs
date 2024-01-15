@@ -6,8 +6,7 @@
         {
             Random rnd = new Random();
             int correct = 0;
-            int series = 10
-                00;
+            int series = 1000;
 
             for (int serieNumber = 0; serieNumber < series; serieNumber++)
             {
